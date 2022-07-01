@@ -1,0 +1,37 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "What's Poppin my BROTHA",
+                "Yo wassup",
+                "Hey :-)",
+                "Wassup"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Cya", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for talking to me",
+                "Have a good rest of your day",
+                "MY BROTHA, imma miss ya"
+            ]
+        },
+        {
+            "tag": "anime",
+            "patterns": ["Top 10 Anime's", "Top 5 Anime's", "Best Anime", "Who is stronger, Goku or Saitama", "Favorite out of the Big 3", "Is One Piece Worth watching"],
+            "responses": [
+                "TBH One Piece is number 1, Number 2 is Demon Slayer"
+            ]
+        }
+    ]
+}
