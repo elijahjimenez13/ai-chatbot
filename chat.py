@@ -28,7 +28,7 @@ model.eval()
 bot_name = "Bozo"
 
 def get_response(msg):
-    sentence = tokenize(sentence)
+    sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
     X = torch.from_numpy(X).to(device)
