@@ -21,16 +21,65 @@
             "tag": "goodbye",
             "patterns": ["Bye", "Cya", "See you later", "Goodbye"],
             "responses": [
-                "See you later, thanks for talking to me",
+                "See you later, thanks for saying wassup",
                 "Have a good rest of your day",
                 "MY BROTHA, imma miss ya"
             ]
         },
         {
-            "tag": "anime",
-            "patterns": ["Top 10 Anime's", "Top 5 Anime's", "Best Anime", "Who is stronger, Goku or Saitama", "Favorite out of the Big 3", "Is One Piece Worth watching"],
+            "tag": "one-piece",
+            "patterns": ["Best Anime", "Favorite out of the Big 3", "Is One Piece Worth watching"],
             "responses": [
-                "TBH One Piece is number 1, Number 2 is Demon Slayer"
+                "TBH One is the best anime of all time and its not debatable. Everyone may hate about it being slow and how there are so many episodes but I promise you that post-timeskip will give you the great quality that you need."
+            ]
+        },
+        {
+            "tag": "anime5",
+            "patterns": ["Top 5 Anime's"],
+            "responses": [
+                "TBH One Piece is just legendary, so I will put it at number 1. For number 2 I will have to put one of the best new gen HxH because it is just so well written. For number 3 I honestly think it is a tie between AOT and Demon Slayer because both of the anime are just so well written and desirve to be in top 3. In the last in final 5th best I honestly have to put pokemon because that anime will forever have its place in my heart, just no where near as good as the others above it."
+            ]
+        },
+        {
+            "tag": "gokuXsaitama",
+            "patterns": ["Who would win in a battle of Goku vs. Saitama"],
+            "responses": [
+                "If I'm Being straight up, Goku NO DIFFS Saitama. Saitama stands no chance, even Frieza Saga Goku can slam Saitama. So the question you should be asking is if Saitama can beat Krillin???"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": ["Tell me a joke", "Are you funny?"],
+            "responses": [
+                "What do you call an elephant that doesn't matter? - An Irrelephant",
+                "How does the moon cut his hair? - Eclipse it",
+                "What did the plate say to the other plate? - Dinners on me",
+                "What kind of tree fits in your hand? - A Palm Tree",
+                "How do trees get online? - They just log in",
+                "Why are mountains so funny? - Because they are Hill-Arious",
+                "What do runners do when they forget something? - They jog their memory",
+                "What letter has it's own brand of shoes? - a D does"
+            ]
+        },
+        {
+            "tag": "info",
+            "patterns": ["How long did it take to make this chatbot?", "How long were you working on this project?"],
+            "responses": [
+                "I worked on this chatbot/project for 1 week and I was guided by a 4 part video series on step by step how to add the code and how it worked (the code is python)."
+            ]
+        },
+        {
+            "tag": "hgs-ms",
+            "patterns": ["What does the hidden genius project do?", "What is the mission of the hidden genius project?"],
+            "responses": [
+                "The Hidden Genius project trains and mentors Black male youth in technology creation, entrepreneurship, and leadership skills to transform their lives and communities."
+            ]
+        },
+        {
+            "tag": "goat",
+            "patterns": ["Who is the GOAT", "Who is the best basketball player of all time?"],
+            "responses": [
+                "Micheal Jordan will remain the GOAT until Lebron proves otherwise because the impact Jordan left on the sport is immesurable and he deserves the title of being the GREATEST OF ALL TIME."
             ]
         }
     ]
